@@ -1,0 +1,222 @@
+/********** Template CSS **********/
+.bg-darkgreen {
+    background-color: #08390A;
+
+}
+
+.darkgreen {
+    color: #08390A;
+
+}
+
+.midgreen {
+    color: #4CAF50;
+
+}
+
+.wght-600 {
+    font-weight: 600;
+}
+
+
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Button ***/
+/* .btn {
+    transition: .5s;
+}
+
+.btn.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+} */
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    overflow-y: auto;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: black;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.content {
+    margin-left: 300px;
+    min-height: 100vh;
+    background: var(--dark);
+    transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        margin-left: 0;
+    }
+
+    .sidebar.open {
+        margin-left: -300px;
+    }
+
+    .content {
+        width: calc(100% - 250px);
+    }
+
+    .content.open {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+#sidebar-toggler {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        margin-left: -300px;
+    }
+
+    .sidebar.open {
+        margin-left: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #sidebar-toggler {
+        display: block;
+    }
+}
+
+.sidebar .navbar .navbar-nav .nav-link {
+    padding: 6px 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.sidebar .navbar .navbar-nav .nav-link:hover,
+.sidebar .navbar .navbar-nav .nav-link.active {
+    color: black;
+    background: #ff0057;
+    border-color: #ff0057;
+}
+
+.sidebar .navbar .navbar-nav .nav-link i {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #ff0057; */
+    background: rgb(39, 59, 74, 1);
+    border-radius: 40px;
+}
+
+.sidebar .navbar .navbar-nav .nav-link:hover i,
+.sidebar .navbar .navbar-nav .nav-link.active i {
+    background: var(--light);
+}
+
+.dropdown .dropdown-menu {
+    align-items: center;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    height: 6vh;
+    margin: 0;
+}
+
+.sidebar .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #ff0057;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .content .navbar .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
+}
+
+.sidebar .navbar .navbar-div {
+    /* border-bottom: 2px solid grey; */
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.9);
+    position:sticky;
+    z-index: 999;
+    top: 0;
+}

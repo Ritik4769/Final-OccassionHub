@@ -1,0 +1,76 @@
+
+body{
+    background-color: black;
+}
+
+#requirmentMainContainer{
+/* background-color: rgb(62, 55, 55); */
+background-color: black;
+/* height: 46vh; */
+height: max-content;
+
+/* box-shadow: 4px 4px 4px rgba(250, 45, 45, 0.5); */
+}
+
+.requirmentMainContainer1{
+    /* background-color: blueviolet; */
+}
+
+#topheading{
+    color: white;
+    font-size: 2vw;
+}
+
+.span1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(250, 45, 45);
+    border-radius: 50px;
+}
+
+.inputFields{
+    border: 2px solid rgb(250, 45, 45);
+}
+
+.searchInput{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0%;
+    border-top: 2px solid rgb(250, 45, 45);
+    border-bottom: 2px solid rgb(250, 45, 45);
+}
+.searchInput1{
+    border-left: 2px solid rgb(250, 45, 45);
+}
+.searchInput2{
+    border-right: 2px solid rgb(250, 45, 45);
+}
+
+.grayHeading{
+    color: rgb(206, 206, 206);
+}
+.whiteText{
+    color: white;
+}
+
+.borderPinkInput{
+ border: 2px solid rgb(250, 45, 45);
+ border-radius: 0%;
+}
+.toppara{
+    color: gray;
+    margin-top: -15px;
+}
+.lastInput{
+    margin-left: 5vw;
+}
+.lastLable{
+    margin-left: 5vw;
+}
+
+.lastCheckBox{
+   margin-right: 91vw;
+}
+#mealsection , #venusection , #decorationsection , #djsection {
+    display: none;
+}

@@ -1,0 +1,40 @@
+.reg{
+   color: #FF0057;
+}
+
+#formFile{
+  /* background-color: #FF0057;
+  border: none;
+  height: 40px; */
+  background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+   color: white;
+}
+/* .btn{
+   background-color: #FF0057;
+   width: 100%;
+   height: 40px;
+   margin-top: 30px;
+}
+.btn:hover{
+  background-color: #FF0057;
+} */
+
+.input-field {
+   border: 0px solid black;
+   border-bottom: 2px solid #FF0057;
+   background-color: transparent;
+   color: grey;
+   width: 100%;
+ }
+ .input-field:focus {
+   background-color: transparent;
+   color: white;
+   box-shadow: none;
+   border: 0;
+   border-bottom: 2px solid #FF0057;
+ }
+#addgallery{
+   color: white;
+}

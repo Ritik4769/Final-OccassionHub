@@ -1,0 +1,17 @@
+/* .scroller{
+    height: 60vh;
+    overflow-y: scroll;
+} */
+.subScroller{
+    height: 100%;
+    overflow-y: scroll;
+    /* overflow-x:hidden;    */
+}
+
+.subScroller::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 5px;
+}

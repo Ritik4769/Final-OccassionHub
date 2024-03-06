@@ -1,0 +1,61 @@
+/* ============PROFILE PAGE CSS START */
+.profilebuttons {
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+
+.profilemaincontainer {
+  background-color: #d2c9cc7d;
+}
+.commonsection .requestservicesection{
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px whitesmoke;
+  overflow: hidden;
+}
+.row .commonsection {
+  margin-left: -10px;
+}
+/* ============PROFILE PAGE CSS END */
+
+/* ====REQUEST SECTION CSS START */
+.profilepagerequestheading {
+  background-color: rgb(39, 59, 74, 50%);
+}
+
+.requestservicesection .profilepagerequestheading .container .nav .nav-item:hover .nav-link{
+  color: #ff0057;
+}
+.requestservicesection .profilepagerequestheading .container .nav .nav-item .nav-link{
+  color: white;
+  font-weight: 600;
+}
+.requestservicesection .profilepagerequestheading .container .nav .nav-item .nav-link:focus{
+  transition: 0.8s;
+  border-bottom: 2px solid #ff0057;
+  color: #ff0057;
+}
+.requestsections{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.activate{
+  transition: 0.8s;
+  border-bottom: 2px solid #ff0057;
+  color: #ff0057;
+}
+/* .activate .nav-link {
+  font-weight: 600;
+  color: #ff0057;
+} */
+/* ====REQUEST SECTION CSS END */
+
+.tabledark{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tabledark thead tr th {
+  color:white;
+}
+.tabledark tbody tr td {
+  color:white;
+}

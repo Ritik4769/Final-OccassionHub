@@ -1,0 +1,39 @@
+.reg{
+   color: #FF0057;
+}
+#name1,#name2{
+   background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+}
+#flex1,#flex2{
+  color: whitesmoke;
+}
+#formFile{
+   background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+   color: white;
+}
+/* .btn{
+   background-color: #FF0057;
+   width: 100%;
+   height: 40px;
+   margin-top: 30px;
+   color: white;
+   font-size: 20px;
+}
+.btn:hover{
+  background-color: #FF0057;
+  color: white;
+  
+} */
+#addgallery{
+   color: white;
+}
+#select1{
+   background-color: black;
+   border: none;
+   color: white;
+   border-bottom: 2px solid #FF0057;
+}

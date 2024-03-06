@@ -1,0 +1,26 @@
+.reg{
+   color: #FF0057;
+}
+#name1,#name2{
+   background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+}
+.form-control::placeholder{
+   color: white;
+}
+#formFile{
+   background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+   color: white   ;
+}
+#addgallery{
+   color: white;
+}
+#select1{
+   background-color: black;
+   border: none;
+   color: white;
+   border-bottom: 2px solid #FF0057;
+}

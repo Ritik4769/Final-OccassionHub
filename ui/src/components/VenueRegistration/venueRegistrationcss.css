@@ -1,0 +1,15 @@
+/* #name1,#name2{
+   background-color: black;
+   border: none;
+   border-bottom: 2px solid #FF0057;
+} */
+
+#addgallery{
+   color: white;
+}
+#select1{
+   background-color: black;
+   border: none;
+   color: white;
+   border-bottom: 2px solid #FF0057;
+}

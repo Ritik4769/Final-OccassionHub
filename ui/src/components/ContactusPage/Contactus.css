@@ -1,0 +1,143 @@
+/* ================================================== */
+.containerfluid{
+   height:120vh;
+   /* background-color:#616161; */
+   background-color:#0d1015;
+}
+#curvediv {
+  height: 60vh;
+  background-color: #353333;
+  /* width: 100%; */
+  /* margin-left: -8%; */
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  padding-top: 100px;
+  /* margin-top: -20%; */
+}
+
+.contact {
+  color: #FF0057;
+}
+
+/* .container{
+   width: 80%;
+   height:80vh;
+} */
+
+.form-section {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .form-section {
+    padding: 35px;
+  }
+}
+
+.login-wrapper {
+  width: 80%;
+  /* max-width: 100%; */
+}
+
+@media (max-width: 575px) {
+  .login-wrapper {
+    width: 100%;
+  }
+}
+
+.login-wrapper .form-control {
+  border: 0;
+  border-bottom: 1px solid #FF0057;
+  border-radius: 0;
+  font-size: 14px;
+  /* font-weight: bold; */
+  /* padding: 15px; */
+  /* margin-bottom: 7px; */
+  background-color: transparent;
+}
+
+.login-wrapper .form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.login-wrapper .form-control::-moz-placeholder {
+  color: white;
+}
+
+.login-wrapper .form-control:-ms-input-placeholder {
+  color: white;
+}
+
+.login-wrapper .form-control::-ms-input-placeholder {
+  color: white;
+}
+
+.login-wrapper .form-control::placeholder {
+  color: white;
+}
+
+.login-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* .login-btn {
+  padding: 13px 30px;
+  background-color: #000;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+ }
+
+  .login-btn:hover {
+    border: 1px solid #FF0057;
+    background-color: transparent;
+    color: #000;
+   } */
+/* .btn:hover {
+  border: none;
+  background-color: #FF0057;
+  color: #f7f4f4;
+}
+
+.btn {
+  background-color: #FF0057;
+  border: none;
+  color: #f7f4f4;
+  margin-left: 150px;
+  margin-top: 30px;
+} */
+
+.getintouch {
+  color: #FF0057;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#get {
+  color: #f7f4f4;
+  margin-left: 20px;
+}
+
+#get1 {
+  color: #f7f4f4;
+  margin-left: 90px;
+}
+
+#get2 {
+  color: #f7f4f4;
+  margin-left: 220px;
+}
+
+#get3 {
+  color: #f7f4f4;
+  margin-left: 220px;
+}

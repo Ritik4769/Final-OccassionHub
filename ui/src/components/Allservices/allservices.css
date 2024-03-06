@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.heading1 {
+    color: #ff0057;
+    font-weight: 600;
+}
+
+.bookserviceheading {
+    border-bottom: 3px solid #ff0057;
+}
+
+.leftSection {
+    background: url('../../images/stageSearchServices.jpg') center/cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rightSection {
+    text-align: justify;
+    padding: 2.5em;
+}
+
+.secondSpan {
+    color: white;
+    font-weight: 600;
+}
+
+.links {
+    color: white;
+    font-weight: 600;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #ff0057;
+}
+
+.linksContainer {
+    height: 70vh;
+    overflow-y: scroll;
+    /* box-shadow: 10px 10px 10px #ff0057; */
+    /* background-color: #ff005550; */
+    /* background: linear-gradient(#1c1919, #000); */
+}
+
+.linksContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.linksContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey;
+    border-radius: 10px;
+}
+
+.linksContainer::-webkit-scrollbar-thumb {
+    background: #ff0057;
+    border-radius: 10px;
+}
+
+.allImages {
+    height: "200px";
+    object-fit: cover;
+}
+
+.nav-link:focus {
+    color: #ff0057;
+}

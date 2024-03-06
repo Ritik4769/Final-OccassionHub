@@ -1,0 +1,62 @@
+
+/* ============> SERVICES SECTION CSS START <=============== */
+
+.image-container {
+    position: relative;
+  }
+  
+  .hover-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FF0057;
+    opacity: 0;
+    height: 0px;
+    text-align: center;
+    transition: 0.5s ease;
+  }
+  
+  .image-container:hover .hover-box {
+    opacity: 80%;
+    height: 80px;
+  }
+  
+  .servicesimage {
+    height: 500px;
+  }
+  
+  @media screen and (max-width : 768px) {
+    .servicesimage {
+      height: 300px;
+    }
+  
+    .image-container:hover .hover-box {
+      opacity: 80%;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width : 505px) {
+    .servicesimage {
+      height: 250px;
+    }
+  
+    .image-container:hover .hover-box {
+      opacity: 80%;
+      height: 50px;
+    }
+  }
+  
+  @media screen and (max-width : 430px) {
+    .servicesimage {
+      height: 250px;
+    }
+  
+    .image-container:hover .hover-box {
+      opacity: 80%;
+      height: 40px;
+    }
+  }
+  
+  /* ============> SERVICES SECTION CSS END <=============== */

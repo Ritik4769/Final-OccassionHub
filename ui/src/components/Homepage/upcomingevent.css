@@ -1,0 +1,14 @@
+/* ===========>UPCOMING EVENTS CSS START<=========== */
+.carinnerdiv {
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    top: 6%;
+    left: 6%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #FF0057;
+  }
+  
+  /* ===========>UPCOMING EVENTS CSS END<=========== */

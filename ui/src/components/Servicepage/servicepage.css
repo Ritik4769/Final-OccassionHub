@@ -1,0 +1,46 @@
+#catring {
+    margin-top: 2rem;
+    height: 55vh;
+    width: 30rem;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* margin-left: 1rem; */
+}
+
+#catring:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    /* color: #FF0057; */
+}
+
+#decoration {
+    margin-top: 2rem;
+    margin-left: 8rem;
+    height: 55vh;
+    width: 30rem;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* cursor: pointer; */
+    /* border-radius: 10px; */
+}
+
+
+#decoration:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+
+}
+
+h3 {
+    font-size: "2rem";
+    margin-left: "-2rem";
+}
+
+p {
+    margin-left: "-19rem";
+    color: white;
+}

@@ -1,1 +1,2 @@
-# Final-OccassionHub
+# OccassionHub
+This is event mangment project

@@ -1,0 +1,12 @@
+
+/* ============> WHY US SECTION CSS START <=============== */
+
+.bg-dark1 {
+    background: linear-gradient(180deg, rgba(88, 112, 135, 0.37) 0%, rgba(217, 217, 217, 0) 100%);
+  }
+  
+  .cards:hover {
+    background-color: #FF0057;
+  }
+  /* ============> WHY US SECTION CSS END <=============== */
+  

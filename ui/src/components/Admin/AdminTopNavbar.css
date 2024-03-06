@@ -1,0 +1,67 @@
+.content .navbar .navbar-nav .nav-link {
+    margin-left: 25px;
+    padding: 12px 0;
+    color: var(--dark);
+    outline: none;
+}
+
+.content .navbar .navbar-nav .nav-link:hover,
+.content .navbar .navbar-nav .nav-link {
+    color: #ff0057;
+}
+@media screen and (max-width:991px) {
+    .content .navbar .contentlinks .navbar-nav{
+        flex-direction: row;
+    }
+    .content .navbar .navbar-nav .nav-link {
+        margin-left: 10px;
+        padding: 12px 0;
+        color: var(--dark);
+        outline: none;
+    }
+}
+@media screen and (max-width : 604px){
+    .content .navbar {
+        flex-wrap: nowrap;
+    }
+    .content .navbar .contentlinks .navbar-nav .nav-link span {
+        display: none;
+    }
+}
+
+.content .navbar .sidebar-toggler,
+.content .navbar .navbar-nav .nav-link i {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(39, 59, 74, 1);
+    border-radius: 40px;
+}
+
+.content .navbar .dropdown-toggle::after {
+    margin-left: 6px;
+    vertical-align: middle;
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .5s;
+}
+
+.content .navbar .navbar-toggler span{
+    color: white;
+}
+
+
+/* My css start */
+.mySideBar {
+    background-color: black;
+    color: #F3F6F9;
+}
+
+.topNavBar {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}

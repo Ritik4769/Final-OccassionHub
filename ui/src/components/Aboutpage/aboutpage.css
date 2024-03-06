@@ -1,0 +1,206 @@
+/* ============ABOUT PAGE CSS START */
+/* -----------------------about page----------------------------------- */
+section {
+    padding: 40px 0 0 5px;
+  }
+  
+  .section-bg {
+    background-color: #f7fbfe;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #eaf4fb;
+  }
+  
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #FF0057;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+    color: #ddd;
+  }
+  
+  /*--------------------------------------------------------------
+  # What We Do
+  --------------------------------------------------------------*/
+  .what-we-do .icon-box {
+    text-align: center;
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    background: black;
+  }
+  
+  .what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    background: red;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .what-we-do .icon-box .icon img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .what-we-do .icon-box .icon img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  
+  .what-we-do .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .what-we-do .icon-box h4 a {
+    color: #FF0057;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .what-we-do .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #ddd;
+  }
+  
+  .what-we-do .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .what-we-do .icon-box:hover h4 a,
+  .what-we-do .icon-box:hover .icon i {
+    color: #ddd;
+  }
+  
+  .card {
+    margin: 10px 0 10px 100px;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(180deg, rgba(28, 36, 49, 0.37) 0%, rgba(217, 217, 217, 0) 100%);
+  }
+  
+  .card-text {
+    padding-left: 20px;
+    color: #ddd;
+    font-size: 14px;
+  }
+  
+  .cardtitle {
+    padding-left: 20px;
+    color: #FF0057;
+  }
+  
+  .card-word {
+    padding-left: 20px;
+    color: #FF0057;
+  }
+  
+  .images img {
+    height: 30vh;
+    width: 100%;
+  }
+  
+  .card-body .ui-decor-2 {
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    width: 45px;
+  
+    background-color: #FF0057;
+  }
+  
+  .ui-decor-2 {
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+  }
+  
+  /* ----------------------------------------- */
+  .faq .accordion-collapse {
+    border: 0;
+  }
+  
+  .faq .accordion-button {
+    padding: 15px 15px 20px 0;
+    font-weight: 600;
+    border: 0;
+    font-size: 18px;
+    color: #ddd;
+    text-align: left;
+    background-color: black;
+  }
+  
+  .faq .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .faq .accordion-button:not(.collapsed) {
+    /* background: none; */
+    color: #FF0057;
+    border-bottom: 0;
+  }
+  
+  .faq .accordion-body {
+    padding: 0 0 25px 0;
+    border: 0;
+  }
+  
+  .accordion-collapse {
+    background-color: black;
+    color: #eaf4fb;
+  }
+  
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    border-radius: 50%;
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e); */
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    background-color: #FF0057;
+  }
+  
+  /* ============ABOUT PAGE CSS END */

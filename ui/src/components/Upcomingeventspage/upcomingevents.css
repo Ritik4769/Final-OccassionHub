@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+#headingUpcomingEvent{
+    color: #FF0057;
+}
+#headingEvent{
+    color: white;
+}
+#upcomingSection{
+    /* background: url('../../images/cardMain1.jpg') center/cover; */
+    /* background: url('../../images/cardMain1.jpg') center/cover; */
+    height:55vh;
+    width: 430px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#upcomingSection2{
+    height: auto;
+}
+
+/* .maindiv {
+    box-shadow: 1px 1px 7px rgb(116, 116, 116);
+} */
+
+#overlayImage{
+    background: url('../../images/card1.jpg') center/cover;
+    background-size: cover;
+    margin: 35% 0 0% -15%;
+    height: 200px;
+}
+
+.text_justify{
+color: #CDCDCD;
+text-align: justify;
+}
+
+.whiteColour{
+    color: white;
+    font-weight: lighter;
+}
+
+.w-80 {
+    width: 90%;
+}

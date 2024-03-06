@@ -1,0 +1,25 @@
+.outerProfileContainer {
+    height: 35vh;
+    width: 75%;
+    /* background-color: ; */
+}
+
+.outerProfileContainer img {
+    height: 35vh;
+    width: 100%;
+}
+
+.belowProfileContainer {
+    margin-top: 2vh;
+    height: 37vh;
+    width: 110%;
+}
+
+.ratingBox {
+    height: 6vh;
+    width: 80%;
+    background-color: #ff0057;
+    border-radius: 2%;
+    color: whitesmoke;
+    font-size: 1.3em;
+}

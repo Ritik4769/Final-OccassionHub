@@ -1,0 +1,315 @@
+.firstImageBanner {
+    background: url('../../images/catrersIcon.png') center/cover;
+    height: 22vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.SecondImageBanner {
+    background: url('../../images/klipartz.png') center/cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/********** Template CSS **********/
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+
+/*** Button ***/
+.btn {
+    transition: .5s;
+}
+
+.btn.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+
+/*** Layout ***/
+.siderbar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    overflow-y: auto;
+    background: var(--light);
+    transition: 0.5s;
+    z-index: 0;
+    background: red;
+}
+
+@media (min-width: 992px) {
+    .siderbar {
+        margin-left: 0;
+    }
+
+    .siderbar.open {
+        margin-left: -250px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .siderbar {
+        margin-left: -250px;
+    }
+
+    .siderbar.open {
+        margin-left: 0;
+    }
+}
+
+
+/*** Navbar ***/
+.siderbar .navbar .navbar-nav .nav-link {
+    padding: 7px 20px;
+    color: var(--dark);
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+}
+
+.siderbar .navbar .navbar-nav .nav-link:hover,
+.siderbar .navbar .navbar-nav .nav-link {
+    color: black;
+    background: #ff0057;
+    border-color: #ff0057;
+}
+
+.siderbar .navbar .navbar-nav .nav-link i {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.siderbar .navbar .navbar-nav .nav-link:hover i {
+    background: var(--light);
+}
+
+.siderbar .navbar .dropdown-toggle::after {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .5s;
+}
+
+.siderbar .navbar .dropdown-toggle[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+}
+
+.siderbar .navbar .dropdown-item {
+    padding-left: 25px;
+    /* border-radius: 0 30px 30px 0; */
+}
+
+/*** Date Picker ***/
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+
+/*** Testimonial ***/
+.progress .progress-bar {
+    width: 0px;
+    transition: 2s;
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 5px solid var(--primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    background: var(--dark);
+    border-color: var(--primary);
+}
+
+
+
+/* My css start */
+.mySideBar {
+    background-color: #191C24;
+    color: #F3F6F9;
+}
+
+/* .topNavBar {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+} */
+
+.sidbarItems:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.mySideBar .navbar-nav .nav-item.nav-link {
+    color: white !important;
+    background-color: #2c2c2c;
+    margin-top: 2vh;
+}
+
+.nameSection {
+    color: white !important;
+    background-color: #2c2c2c;
+    text-align: center;
+}
+
+/* .imagesSideSecion{
+    box-shadow:2px 7px 5px rgba(187, 44, 44, 0.5); ;
+} */
+.scrollers {
+    height: 95vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* For Firefox */
+}
+
+.scrollers::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar for WebKit browsers */
+}
+
+.scrollers::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* Color of the thumb for WebKit browsers */
+}
+
+.scrollers::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Color of the track for WebKit browsers */
+}
+
+#catrer-main-container {
+    border-radius: 50px;
+    margin-top: 8vw;
+    position: initial;
+}
+
+#catrerMainDiv {
+    background-color: rgb(39, 59, 74, 20%);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 90vh;
+}
+
+#catrerHeader {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 6%;
+}
+
+/* My css end */
+
+@media screen and (max-width:991px) {
+    #sideNavBar {
+        display: none;
+        /* width: 100vw; */
+    }
+}
+
+#uls{
+    list-style: none;
+}
+
+
+/* ---------------------------Profile Design start----------------------- */
+
+.outerProfileContainer {
+    height: 35vh;
+    width:  75%;
+    /* background-color: ; */
+}
+.outerProfileContainer img{
+    height: 35vh;
+    width:  100%;
+}
+
+.belowProfileContainer{
+    margin-top: 2vh;
+    height: 37vh;
+    width: 110%;
+}
+.ratingBox{
+    height: 6vh;
+    width: 80%;
+    background-color: #ff0057;
+    border-radius: 2%;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+/* ---------------------------Profile Design End----------------------- */
